@@ -5,9 +5,9 @@ case language
  when "ruby"
  puts "подлиза"
  when "python"
- puts "!"
+ puts "выбирай другой!"
  when "c++"
- puts "."
+ puts "Такое мне не нравится."
  else
  puts "Неизвестный мне язык"
  end
