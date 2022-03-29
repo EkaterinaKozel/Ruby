@@ -10,7 +10,7 @@ def sum_digits()
     return sum
 end
 
-# puts sum_digits()
+ puts sum_digits()
 def min()
     num = ARGV[0].to_i
     min=10
