@@ -19,6 +19,21 @@ def min()
         if a<min
             min = a 
         end
+        num = num/10
+    end
         return min 
-    end 
+end 
     puts min()
+def max()
+    num = ARGV[0].to_i
+    max=0
+    while num != 0
+        a=num%10
+        if a>max
+            max = a 
+        end
+        num = num/10
+    end
+        return max
+end 
+    puts max()
